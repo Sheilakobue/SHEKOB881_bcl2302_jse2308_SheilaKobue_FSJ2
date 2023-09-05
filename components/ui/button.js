@@ -4,8 +4,9 @@ import classes from './button.module.css'
 
 
 export default function Button(props) {
-  return 
+  return (
     <Link href={props.link}>
          <a className = {classes.btn}>{props.children}</a>
     </Link>
+  )
 }
