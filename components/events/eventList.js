@@ -1,5 +1,5 @@
 import React from 'react'
-import EventItem from '../eventItem';
+import EventItem from './eventItem';
 import classes from './event-list.module.css'
 
 export default function EventList(props) {

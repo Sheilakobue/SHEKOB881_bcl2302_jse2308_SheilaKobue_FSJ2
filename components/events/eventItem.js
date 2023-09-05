@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import Link from 'next/link';
 import classes from './events/event-item.module.css'
 
 export default function EventItem(props) {
@@ -11,7 +11,7 @@ export default function EventItem(props) {
     year: "numeric",
   });
 
-  const formattedAddress = location.replace(",", "\n");
+  const formattedAddress = location.replace(",","\n");
   const exploreLink = `/events/${id}`;
 
   return (
