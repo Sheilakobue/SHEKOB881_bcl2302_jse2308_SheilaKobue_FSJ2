@@ -6,9 +6,9 @@
     padding: 1rem 10%;
     height: 5rem;
     background-color: #202020;
-}
-
-.logo {
+  }
+  
+  .logo {
     font-size: 1.5rem;
     color: white;
     font-family: 'Fira', sans-serif;
@@ -17,25 +17,25 @@
     justify-content: center;
     align-items: center;
     color: #94fdfd;
-}
-
-.logo a {
+  }
+  
+  .logo a {
     text-decoration: none;
     color: #94fdfd;
-}
-
-.navigation a {
+  }
+  
+  .navigation a {
     text-decoration: none;
     color: #74dacc;
     font-size: 1rem;
-}
-
-@media (min-width: 768px) {
+  }
+  
+  @media (min-width: 768px) {
     .logo {
-        font-size: 2.5rem;
+      font-size: 2.5rem;
     }
-
+  
     .navigation a {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
-}
+  }
