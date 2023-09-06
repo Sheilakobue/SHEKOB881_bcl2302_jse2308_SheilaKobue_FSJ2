@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import { getEventById } from "@/dummy-data";
 import React, { Fragment } from "react";
 import EventSummary from "@/components/event-detail/event-summary";
-import EventLogistics from "@/components/event-detail/event-logistics";
-import EventContent from "@/components/event-detail/event-content";
+import EventLogistics from "../../components/event-detail/event-logistics";
+import EventContent from "../../components/event-detail/event-content";
 
 export default function EventDetailPage() {
   const router = useRouter();
