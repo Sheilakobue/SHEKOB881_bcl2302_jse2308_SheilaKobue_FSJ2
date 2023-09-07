@@ -4,7 +4,7 @@ import EventList from "@/components/events/event-list";
 import ResultsTitle from "@/components/events/results-title";
 import { Fragment } from "react";
 import Button from "@/components/ui/button";
-import ErrorAlert from "@/components/ui/error-alert/error-alert";
+import ErrorAlert from "@/components/ui/error-alert";
 
 
 
